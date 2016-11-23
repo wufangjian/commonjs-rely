@@ -1,0 +1,29 @@
+{
+  "name": "rely",
+  "version": "1.0.0",
+  "description": "遵循commonjs规范，实现的一个简单的模块定义与加载功能，前端模块化工具。",
+  "main": "rely.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wufangjian/commonjs-rely.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wufangjian/commonjs-rely/issues"
+  },
+  "homepage": "https://github.com/wufangjian/commonjs-rely#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gzip": "^1.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.1"
+  }
+}
