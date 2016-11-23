@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
 	<link rel="stylesheet" href="">
 	<script src="../rely.js"></script>
+	<script src="./a.js"></script>
 </head>
+
 <body>
-	
+
 </body>
 <script>
-	rely.define('moduleId', function(module, exports, rely){
-		function print(){
-			console.log('~ hello ~ rely!')
-		}
-
-		exports.print = print;
-	});
-
-	var mod = rely('moduleId');
-	mod.print();
+	var mod = rely('a');
+	document.write(mod.print())
 </script>
+
 </html>
